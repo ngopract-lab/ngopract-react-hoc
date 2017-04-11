@@ -15,7 +15,7 @@ class App extends Component {
         </div>
         <div>
           <h3>Props Proxy</h3>
-          <p>props proxy do....</p>
+          <p>props proxy do something below...</p>
           <div>
             <HOCWrappedComponent {...dummyProps} />
           </div>
