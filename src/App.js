@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import HOCWrappedComponent from './components/WrappedComponent';
+import HOCStyleWrappedComponent from './components/StyleWrappedComponent';
 
 class App extends Component {
   render() {
@@ -18,6 +19,14 @@ class App extends Component {
           <p>props proxy do something below...</p>
           <div>
             <HOCWrappedComponent {...dummyProps} />
+          </div>
+        </div>
+        <div>
+          <hr />
+          <h3>HOC wrapping for styling</h3>
+          <p>HOC will wrap styles!</p>
+          <div>
+            <HOCStyleWrappedComponent />
           </div>
         </div>
       </div>
